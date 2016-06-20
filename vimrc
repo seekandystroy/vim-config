@@ -3,6 +3,9 @@ execute pathogen#infect()
 " Map leader to ,
 let mapleader=","
 
+" Map escape to jk, faster than using esc
+inoremap jk <Esc>
+
 " Background dark/light
 set background=dark
 " Colorscheme
