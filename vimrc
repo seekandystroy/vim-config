@@ -12,7 +12,10 @@ set background=dark
 colorscheme solarized
 
 if has("gui_running")
-    " empty for now, may need later
+    " Hiding the menubar
+    set guioptions-=m
+    " Hiding the toolbar
+    set guioptions-=T
 else
     "solarized terminal compatibility
     let g:solarized_termcolors=256
