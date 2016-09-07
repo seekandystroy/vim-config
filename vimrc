@@ -18,7 +18,7 @@ if has("gui_running")
     set guioptions-=T
 else
     "solarized terminal compatibility
-    let g:solarized_termcolors=256
+    "let g:solarized_termcolors=256
 endif
 
 " We're running Vim, not Vi!
