@@ -6,6 +6,9 @@ let mapleader=","
 " Map escape to jk, faster than using esc
 inoremap jk <Esc>
 
+"backspace working over linebreaks and imode start
+set backspace=indent,eol,start
+
 " Background dark/light
 set background=dark
 " Colorscheme
