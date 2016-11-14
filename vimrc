@@ -22,6 +22,8 @@ if has("gui_running")
 else
     "solarized terminal compatibility
     "let g:solarized_termcolors=256
+    " Enabling mouse in all modes
+    set mouse=a
 endif
 
 " We're running Vim, not Vi!
