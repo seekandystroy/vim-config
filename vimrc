@@ -20,6 +20,10 @@ if has("gui_running")
     " Hiding the toolbar
     set guioptions-=T
 else
+    " Force terminator (and other terms) to use 16 colours
+    " Avoids weird background colours when the solarized pallete is used in
+    " the term
+    set t_Co=16
     "solarized terminal compatibility
     "let g:solarized_termcolors=256
     " Enabling mouse in all modes
