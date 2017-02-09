@@ -18,4 +18,5 @@ git clone git@github.com:airblade/vim-gitgutter bundle/vim-gitgutter
 git clone git@github.com:tpope/vim-endwise bundle/vim-endwise
 git clone git@github.com:pangloss/vim-javascript bundle/vim-javascript
 git clone git@github.com:elixir-lang/vim-elixir bundle/vim-elixir
+git clone git@github.com:slashmili/alchemist.vim bundle/alchemist
 ```
