@@ -17,4 +17,5 @@ git clone git@github.com:godlygeek/tabular bundle/tabular
 git clone git@github.com:airblade/vim-gitgutter bundle/vim-gitgutter
 git clone git@github.com:tpope/vim-endwise bundle/vim-endwise
 git clone git@github.com:pangloss/vim-javascript bundle/vim-javascript
+git clone git@github.com:elixir-lang/vim-elixir bundle/vim-elixir
 ```
