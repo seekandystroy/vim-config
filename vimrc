@@ -92,5 +92,10 @@ let g:airline#extensions#bufferline#enabled = 0
 " Truncate branch name on airline
 let g:airline#extensions#branch#displayed_head_limit = 4
 
-" Don't change CtrlP's current directory on file select
-let g:ctrlp_working_path_mode = 0
+" FZF (replaces Ctrl-P, FuzzyFinder and Command-T)
+set rtp+=/usr/local/opt/fzf
+set rtp+=~/.fzf
+nnoremap ; :Buffers<CR>
+nnoremap <Leader>r :Tags<CR>
+nnoremap <Leader>t :Files<CR>
+nnoremap <Leader>a :Ag<CR>
