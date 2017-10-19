@@ -97,5 +97,5 @@ set rtp+=/usr/local/opt/fzf
 set rtp+=~/.fzf
 nnoremap ; :Buffers<CR>
 nnoremap <Leader>r :Tags<CR>
-nnoremap <Leader>t :Files<CR>
+nnoremap <Leader>f :Files<CR>
 nnoremap <Leader>a :Ag<CR>
