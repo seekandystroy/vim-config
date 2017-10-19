@@ -5,7 +5,7 @@ execute pathogen#helptags()
 let mapleader=","
 
 " Map escape to jk, faster than using esc
-inoremap jk <Esc>
+noremap! jk <Esc>
 
 "backspace working over linebreaks and imode start
 set backspace=indent,eol,start
