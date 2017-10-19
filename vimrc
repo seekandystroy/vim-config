@@ -99,3 +99,9 @@ nnoremap ; :Buffers<CR>
 nnoremap <Leader>r :Tags<CR>
 nnoremap <Leader>f :Files<CR>
 nnoremap <Leader>a :Ag<CR>
+
+" Tell ack.vim to use ag (the Silver Searcher) instead
+let g:ackprg = 'ag --vimgrep'
+
+" Show Ack results in quicklist
+nnoremap <Leader>k :Ack! "\b<cword>\b" <CR>
