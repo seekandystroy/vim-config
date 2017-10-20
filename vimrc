@@ -77,6 +77,27 @@ set splitbelow
 " Open vertical splits to the right of the current one
 set splitright
 
+" Folding per-language settings
+set foldmethod=syntax
+" Folds open when a file is opened
+set foldlevelstart=99
+function! MyFoldText() " {{{
+    let line = getline(v:foldstart)
+
+    let nucolwidth = &fdc + &number * &numberwidth
+    let windowwidth = winwidth(0) - nucolwidth - 3
+    let foldedlinecount = v:foldend - v:foldstart
+
+    " expand tabs into spaces
+    let onetab = strpart('          ', 0, &tabstop)
+    let line = substitute(line, '\t', onetab, 'g')
+
+    let line = strpart(line, 0, windowwidth - 2 -len(foldedlinecount))
+    let fillcharcount = windowwidth - len(line) - len(foldedlinecount)
+    return line . '…' . repeat(" ",fillcharcount) . foldedlinecount . '…' . ' '
+endfunction " }}}
+set foldtext=MyFoldText()
+
 " Remove all trailing whitespace on :w
 autocmd BufWritePre * :%s/\s\+$//e
 
