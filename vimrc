@@ -124,5 +124,5 @@ nnoremap <Leader>a :Ag<CR>
 " Tell ack.vim to use ag (the Silver Searcher) instead
 let g:ackprg = 'ag --vimgrep'
 
-" Show Ack results in quicklist
+" Mapping to Ack on the current word, shows in quicklist
 nnoremap <Leader>k :Ack! "\b<cword>\b" <CR>
