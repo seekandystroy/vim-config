@@ -21,4 +21,5 @@ git clone git@github.com:slashmili/alchemist.vim bundle/alchemist
 git clone git@github.com:tpope/vim-rhubarb bundle/vim-rhubarb
 git clone git@github.com:junegunn/fzf.vim bundle/fzf.vim
 git clone git@github.com:mileszs/ack.vim bundle/ack.vim
+git clone git@github.com:w0rp/ale bundle/ale
 ```
