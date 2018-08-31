@@ -127,6 +127,9 @@ let g:ackprg = 'ag --vimgrep'
 " Mapping to Ack on the current word, shows in quicklist
 nnoremap <Leader>k :Ack! "\b<cword>\b" <CR>
 
+" Wrap arguments from a line to multiline
+nnoremap <silent> <Leader>aw :ArgWrap<CR>
+
 " Set fixers for ALE to use to format files
 let g:ale_fixers = {
 \    'ruby': [

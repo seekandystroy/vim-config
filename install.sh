@@ -1,3 +1,4 @@
+git clone git@github.com:FooSoft/vim-argwrap              bundle/vim-argwrap
 git clone git@github.com:airblade/vim-gitgutter           bundle/vim-gitgutter
 git clone git@github.com:ajh17/vimcompletesme             bundle/vimcompletesme
 git clone git@github.com:altercation/vim-colors-solarized bundle/vim-colors-solarized
