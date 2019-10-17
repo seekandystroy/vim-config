@@ -13,7 +13,6 @@ git clone git@github.com:scrooloose/nerdcommenter         bundle/nerdcommenter
 git clone git@github.com:scrooloose/nerdtree              bundle/nerdtree
 git clone git@github.com:sheerun/vim-polyglot             bundle/vim-polyglot
 git clone git@github.com:slashmili/alchemist.vim          bundle/alchemist
-git clone git@github.com:terryma/vim-multiple-cursors     bundle/vim-multiple-cursors
 git clone git@github.com:tpope/vim-endwise                bundle/vim-endwise
 git clone git@github.com:tpope/vim-fugitive               bundle/vim-fugitive
 git clone git@github.com:tpope/vim-rhubarb                bundle/vim-rhubarb
