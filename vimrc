@@ -130,9 +130,7 @@ nnoremap <Leader>k :Ack! "\b<cword>\b" <CR>
 " Wrap arguments from a line to multiline
 nnoremap <silent> <Leader>aw :ArgWrap<CR>
 
-" Set fixers for ALE to use to format files
-let g:ale_fixers = {
-\    'ruby': [
-\        'rubocop',
-\    ],
-\}
+" Initialize the linters and fixers objects for ALE to use. Each language's
+" file defines the corresponding linters and fixers
+let g:ale_linters = {}
+let g:ale_fixers = {}
