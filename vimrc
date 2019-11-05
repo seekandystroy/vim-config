@@ -1,6 +1,11 @@
 execute pathogen#infect()
 execute pathogen#helptags()
 
+" On Mac, use the older regexpengine, due to performance issues
+if has("macunix")
+    set re=1
+end
+
 " Map leader to ,
 let mapleader=","
 
