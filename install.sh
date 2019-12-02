@@ -18,3 +18,7 @@ git clone git@github.com:tpope/vim-fugitive               bundle/vim-fugitive
 git clone git@github.com:tpope/vim-rhubarb                bundle/vim-rhubarb
 git clone git@github.com:vim-airline/vim-airline-themes   bundle/vim-airline-themes
 git clone git@github.com:w0rp/ale                         bundle/ale
+
+cd bundle/markdown-preview.nvim
+yarn install
+cd ..
