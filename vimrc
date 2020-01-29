@@ -139,3 +139,6 @@ nnoremap <silent> <Leader>aw :ArgWrap<CR>
 " file defines the corresponding linters and fixers
 let g:ale_linters = {}
 let g:ale_fixers = {}
+
+" Set syntax=rspec to all spec files, instead of default ruby
+autocmd BufNewFile,BufRead *_spec.rb set syntax=rspec
