@@ -147,3 +147,7 @@ autocmd BufNewFile,BufRead *_spec.rb set syntax=rspec
 let g:vimwiki_list = [{'path': '~/Workspace/management-wiki/', 'syntax': 'markdown', 'ext': '.md'}]
 " Set vimwiki to detect .mds only under wiki folders
 let g:vimwiki_global_ext = 0
+
+" Run Goyo with Limelight
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!

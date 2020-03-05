@@ -7,6 +7,8 @@ git clone git@github.com:bling/vim-bufferline             bundle/vim-bufferline
 git clone git@github.com:godlygeek/tabular                bundle/tabular
 git clone git@github.com:iamcco/markdown-preview.nvim     bundle/markdown-preview.nvim
 git clone git@github.com:junegunn/fzf.vim                 bundle/fzf.vim
+git clone git@github.com:junegunn/goyo.vim                 bundle/goyo.vim
+git clone git@github.com:junegunn/limelight.vim           bundle/limelight.vim
 git clone git@github.com:mileszs/ack.vim                  bundle/ack.vim
 git clone git@github.com:nathanaelkane/vim-indent-guides  bundle/vim-indent-guides
 git clone git@github.com:scrooloose/nerdcommenter         bundle/nerdcommenter
