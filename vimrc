@@ -142,3 +142,8 @@ let g:ale_fixers = {}
 
 " Set syntax=rspec to all spec files, instead of default ruby
 autocmd BufNewFile,BufRead *_spec.rb set syntax=rspec
+
+" Set vimwiki path and extension
+let g:vimwiki_list = [{'path': '~/Workspace/management-wiki/', 'syntax': 'markdown', 'ext': '.md'}]
+" Set vimwiki to detect .mds only under wiki folders
+let g:vimwiki_global_ext = 0
