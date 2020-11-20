@@ -18,7 +18,7 @@ set backspace=indent,eol,start
 " Background dark/light
 set background=dark
 " Colorscheme
-colorscheme solarized
+colorscheme one
 
 if has("gui_running")
     " Hiding the menubar
@@ -26,14 +26,16 @@ if has("gui_running")
     " Hiding the toolbar
     set guioptions-=T
 else
-    " Force terminator (and other terms) to use 16 colours
-    " Avoids weird background colours when the solarized pallete is used in
-    " the term
-    set t_Co=16
-    "solarized terminal compatibility
-    "let g:solarized_termcolors=256
-    " Enabling mouse in all modes
     set mouse=a
+endif
+
+" vim-one colorscheme
+let g:airline_theme='one'
+let g:one_allow_italics=1
+
+" true color support
+if (has("termguicolors"))
+    set termguicolors
 endif
 
 " We're running Vim, not Vi!
