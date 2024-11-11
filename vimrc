@@ -122,6 +122,7 @@ let g:airline#extensions#branch#displayed_head_limit = 4
 
 " FZF (replaces Ctrl-P, FuzzyFinder and Command-T)
 set rtp+=/usr/local/opt/fzf
+set rtp+=/opt/homebrew/opt/fzf
 set rtp+=~/.fzf
 nnoremap ; :Buffers<CR>
 nnoremap <Leader>r :Tags<CR>
@@ -141,15 +142,3 @@ nnoremap <silent> <Leader>aw :ArgWrap<CR>
 " file defines the corresponding linters and fixers
 let g:ale_linters = {}
 let g:ale_fixers = {}
-
-" Set syntax=rspec to all spec files, instead of default ruby
-autocmd BufNewFile,BufRead *_spec.rb set syntax=rspec
-
-" Set vimwiki path and extension
-let g:vimwiki_list = [{'path': '~/Workspace/management-wiki/', 'syntax': 'markdown', 'ext': '.md'}]
-" Set vimwiki to detect .mds only under wiki folders
-let g:vimwiki_global_ext = 0
-
-" Run Goyo with Limelight
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
